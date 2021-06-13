@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link href="src/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </head>
+   <body>
+    <div class="container">
+      <div class="back">
+        <br />
+        <br />
+        <h1>Weather App</h1>
+                     <h2>Search for your local weather!</h2>
+        <h3 id="temperature">
+          <strong>Current city</strong>
+        </h3>
+        <br />
+        <form id="text-box">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Enter your city here"
+            autocomplete="on"
+            id="search-city"
+          />
+          <br />
+          <button id="Update" class="buttonCSS1">Update</button>
+          <button id="Current Location" class="buttonCSS2">Current Location</button>
+          <br />
+          <br/>
+          <hr/>
+          <br/>
+          <br/>
+          <p>Forecast for the next 5 days</p>
+        </form>
+        <div class="row">
+           <div class="container px-5 py-5">
+        <div class="row">
+            <div class="col mx-1">
+            
+                Today
+                 </br>
+                  12° / 16°
+        </br>
+                🌧</div>
+            <div class="col mx-1">Tomorrow
+                 </br>10° / 17° </br>
+                 ☀
+                </div>
+            <div class="col mx-1">Monday
+                 </br>
+                  11° / 18° 
+                   </br>
+                   ☁</div>
+            <div class="col mx-1">Tuesday
+                 </br>
+                  12° / 19°
+                   </br>
+                    ☁ </div>
+            <div class="col mx-1">Wednesday
+                 </br>
+                  13° / 23°
+                   </br>
+                    ☁ </div>
+        </div>
+    </div>
+    </div>
+   <script src="src/index.js"></script>
+</body>
+</html>
